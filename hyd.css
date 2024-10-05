@@ -1,0 +1,808 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+#parent1{
+    background-image: url(ch.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span{
+    color: white;
+}
+
+
+
+#child2{
+    font-size: 18px;
+}
+
+.h{
+    margin-top: 150px;
+    margin-left: 100px;
+    float: left;
+    text-align: center;
+}
+  
+
+
+
+
+
+h1{
+    margin-top: 50px;
+}
+
+#section2{
+    background-image: url(a.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#card-container1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: white;
+}
+
+#card1{
+    text-align: center;
+    width:400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(1,1,1,0.5);
+    margin:20px;
+
+    transition: transform 0.5s ease-out; 
+    cursor: pointer; 
+}
+
+#card1:hover{
+    transform: scale(1.1);
+}
+
+#card1 img{
+    width: 400px;
+    height: 300px;
+}
+
+
+#description{
+    width: 900px;
+}
+
+
+
+
+
+
+
+    
+
+
+#section3{
+    background-image: url(aaa.avif);
+    width: 100vw;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+#places-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.place-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    width: 300px;
+}
+
+.place-card:hover {
+    animation: shake .5s ease-in-out;
+}
+
+@keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+  
+    20% {
+      transform: translateX(-10px);
+    }
+  
+    40% {
+      transform: translateX(10px);
+    }
+  
+    60% {
+      transform: translateX(-10px);
+    }
+  
+    80% {
+      transform: translateX(10px);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+.place-card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.place-card h2 {
+    padding: 10px;
+    
+    color: black;
+    text-align: center;
+   
+}
+
+.place-card p {
+    padding: 15px;
+    text-align: center;
+    color: #555;
+}
+
+
+ 
+
+
+        
+h1{
+    margin-top: 30px;
+}
+        
+.f{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+        
+.card{
+    text-align: center;
+    width:350px;
+    height: 500px;
+    perspective: 1000px;
+    margin: 20px;
+}
+
+.card-inner{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    transition:transform 1.5s;
+    transform-style: preserve-3d;
+}
+        
+.card:hover .card-inner{
+    transform: rotateY(-180deg);
+}
+        
+.card-front,  .card-back{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backface-visibility: hidden;
+                            
+                            
+}
+        
+.card-back{
+    transform:rotateY(180deg);
+}
+        
+        
+
+
+
+
+
+        
+#section4{
+    background-image: url(fs.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+        
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section5{
+    background-image: url(te.avif);
+    width: 100vw;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#background{
+    background: url(bg.jpg);
+    background-size: cover;
+}
+#background2{
+    background: url(bg2.avif);
+    background-size: cover;
+}
+#div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+#bonalu_img, #bathukamma_img, #diwali_img, #dussehra_img,#numaish_img {
+    transition: transform 0.5s ease-out;
+    cursor: pointer; 
+    object-fit: cover;
+    border-radius: 15px;
+}
+#bonalu_img:hover, #bathukamma_img:hover, #diwali_img:hover, #dussehra_img:hover, #numaish_img:hover{
+    transform: scale(1.1);
+}
+
+#div2{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 6rem;
+    
+}
+#card_body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -120%;
+    position: absolute;
+    background-color: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s
+    
+}
+#card3{
+    height: 20rem;
+    width: 30rem;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    
+    position: relative;
+}
+#card3:hover #card_body{
+    right: 0;
+}
+.heading{
+    font-size: 5rem;
+    background:-webkit-linear-gradient(#f1a9a9,#4951ed);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+@media (max-width:600px) {
+    #div2{
+ 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        column-gap: 6rem;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section6{
+    background-image: url(mm.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+iframe{
+    width: 70%;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+
+#send-btn:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+
+#section7{
+    background-image: url(p.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+ 
+}
+
+
+#contact-div{
+    margin-top: 0;
+    height: 140vh;    
+    background-image: url("./contact.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#head-cu{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+#send-para{
+    margin-left: 300px;
+    margin-top: 100px;
+    font-family:  "Poppins", sans-serif;
+}
+#name-input{
+    margin-left: 300px;
+    width: 250px;
+    height: 30px;
+    border:none;
+}
+#email-input{
+    margin-left: 300px;
+    width: 250px;
+    height: 30px;
+    border:none;
+    margin-top: 50px;
+}
+#message-input{
+    margin-left: 300px;
+    width: 250px;
+    height: 50px;
+    border:none;
+    margin-top: 50px;
+}
+#send-btn{
+    margin-left: 300px;
+    width: 150px;
+    height: 30px;
+    border:none;
+    margin-top: 30px;
+    background-color: green;
+}
+#contact-info{
+    width: fit-content;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 60px;
+    height: 300px;
+}
+#header-contact{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+
+
+#header-contact-2{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+
+}
+
+
+
+@media (max-width: 1423px){
+    #name-input{
+     margin-left: 10px;
+     width: 200px;
+    }
+    #email-input{
+     margin-left: 10px;
+     width: 200px;
+    }
+    #message-input{
+     margin-left: 10px;
+     width: 200px;
+    }
+    #send-btn{
+     margin-left: 10px;
+    }
+    #send-para{
+     margin-left: 10px;
+    }
+    #contact-info{
+     margin-left: 250px;
+     width: 200px;
+    }
+    a{
+     font-size: 20px;
+    }
+    #parent{
+     height: 400vh;
+     width: 200vh;
+    }
+    #contact-div{
+     height: 400vh;
+     width: 200vh;
+    }
+}
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 400px) {
+        #parent1 {
+            background-size: cover;
+            padding: 5px;
+        }
+    
+        #header {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        #child2 {
+            font-size: 14px;
+        }
+    
+        .h {
+            margin-top: 50px;
+            margin-left: 0;
+            text-align: center;
+        }
+    
+        h1 {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+    }
+
+
+    @media screen and (max-width: 640px) {
+        #parent1 {
+            padding: 5px; /* Reduce padding to save space */
+        }
+    
+        #header {
+            flex-direction: column; /* Stack the header items vertically */
+            align-items: center; /* Center the header items */
+        }
+    
+        #child2 {
+            font-size: 16px; /* Adjust font size for better readability */
+            text-align: center; /* Center the text */
+        }
+    
+        .h {
+            margin-top: 50px; /* Reduce the top margin to fit smaller screens */
+            margin-left: 0; /* Remove the left margin to center the content */
+            text-align: center; /* Ensure content is centered */
+            float: none; /* Remove floating for better layout on smaller screens */
+        }
+    
+        h1 {
+            margin-top: 20px; /* Adjust margin for smaller screen */
+            font-size: 24px; /* Reduce font size for better fit */
+        }
+    }
+
+
+
+
+    @media screen and (max-width: 400px) {
+        #card-container1 {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+    
+        #card1 {
+            width: 90%; /* Adjusts the card width to be responsive */
+            margin: 10px;
+        }
+    
+        #card1 img {
+            width: 100%; /* Ensures the image fits the card */
+            height: auto; /* Adjusts the height to maintain aspect ratio */
+        }
+    
+        #section2{
+            background-size: cover;
+            height: auto; /* Makes sure the section height adapts to the content */
+        }
+
+        #description {
+            width: 90%; /* Adjusts width to be responsive */
+            font-size: 14px; /* Adjust font size for readability on small screens */
+            padding: 10px; /* Adds some padding to make it more comfortable to read */
+        }
+    }
+
+
+
+    @media screen and (max-width: 640px) {
+        #card-container1 {
+            flex-direction: column; /* Stack cards vertically on smaller screens */
+            align-items: center; /* Center align cards */
+        }
+    
+        #card1 {
+            width: 90%; /* Make card width responsive */
+            max-width: 400px; /* Set a max width to prevent it from being too large */
+            margin: 10px 0; /* Add vertical spacing between cards */
+        }
+    
+        #card1 img {
+            width: 100%; /* Make image responsive to card width */
+            height: auto; /* Adjust height automatically */
+        }
+    
+        #section2 {
+            height: auto; /* Allow section height to adjust based on content */
+        }
+    
+        #description {
+            width: 90%; /* Make description width responsive */
+            margin: 0 auto; /* Center the description */
+        }
+    }
+
+
+    @media screen and (max-width: 400px) {
+        .f {
+            flex-direction: row; /* Stack cards vertically */
+            align-items: center; /* Center the cards */
+            margin-left: 10; /* Remove left margin */
+            margin-top: 20px; /* Adjust the margin */
+            padding: 5px; /* Add padding for better spacing */
+        }
+    
+        .card {
+            width: 1%; /* Set card width to be responsive */
+            height: auto; /* Allow height to adjust based on content */
+            margin-bottom: 20px; /* Add space between stacked cards */
+        }
+    
+        .card-inner {
+            position: relative; /* Fixes positioning issues on small screens */
+            height: auto;
+        }
+    
+        #section4 {
+            height: auto; /* Adjusts the background section height based on content */
+            background-size: cover;
+        }
+    }
+
+
+
+    @media screen and (max-width: 640px) {
+        .f {
+            flex-direction: row; /* Stack cards vertically */
+            align-items: center; /* Center align cards */
+            margin-left: 10px; /* Remove left margin */
+            margin-top: 20px;
+            margin-bottom: ; /* Adjust margin for smaller screens */
+        }
+    
+        .card {
+            width: 1%; /* Make card width responsive */
+            height: auto; /* Allow height to adjust based on content */
+            margin: 10px ; /* Add vertical spacing between cards */
+        }
+    
+        .card-inner {
+            position: relative;
+            height: auto; /* Allow inner card height to be responsive */
+        }
+    
+        h1 {
+            font-size: 24px; /* Adjust heading size if necessary */
+            margin-top: 20px; /* Reduce margin for smaller screens */
+        }
+    }
+
+
+
+    @media screen and (max-width: 400px) {
+        #section6 {
+            background-size: cover;
+            height: auto; /* Adjusts the height to fit content dynamically */
+        }
+    
+        .container {
+            height: auto; /* Allows the container to adjust based on its content */
+            padding: 10px; /* Adds some padding for smaller screens */
+        }
+    
+        iframe {
+            width: 100%; /* Makes the iframe take the full width of the screen */
+        }
+    }
+
+
+    @media screen and (max-width: 640px) {
+        #section6 {
+            height: auto; /* Allow section height to adjust based on content */
+            background-size: cover; /* Ensure the background covers the section */
+        }
+    
+        .container {
+            height: auto; /* Make the container height auto for better flexibility */
+            padding: 20px; /* Add some padding for better spacing */
+        }
+    
+        iframe {
+            width: 100%; /* Make iframe full width for smaller screens */
+            height: auto; /* Allow height to adjust based on aspect ratio */
+            max-height: 300px; /* Limit height to prevent excessive vertical space */
+        }
+    }
+
+
+
+
+    @media screen and (max-width: 400px) {
+        #send-para {
+            margin-left: 10px; /* Further reduce left margin */
+            font-size: 14px; /* Reduce font size for better fit */
+        }
+    
+        #name-input,
+        #email-input,
+        #message-input,
+        #send-btn {
+            margin-left: 10px; /* Further reduce left margin */
+            width: 95%; /* Make inputs nearly full width */
+        }
+    
+        #message-input {
+            height: 80px; /* Adjust height for smaller screens */
+        }
+    
+        #contact-info {
+            margin-left: 10px; /* Center contact info */
+        }
+    
+        #header-contact {
+            flex-direction: column; /* Maintain stacked layout */
+        }
+    }
+
+
+
+    @media screen and (max-width: 640px) {
+        #contact-div {
+            width: 100%; /* Full width on smaller screens */
+            margin: 0 auto; /* Center the contact div */
+            margin-bottom: 20px; /* Adjust bottom margin */
+        }
+    
+        #send-para {
+            margin-left: 20px; /* Reduce left margin */
+            margin-top: 50px; /* Adjust top margin */
+        }
+    
+        #name-input,
+        #email-input,
+        #message-input,
+        #send-btn {
+            margin-left: 20px; /* Reduce left margin for inputs/buttons */
+            width: 90%; /* Make inputs full width */
+        }
+    
+        #message-input {
+            height: 100px; /* Increase height for better usability */
+        }
+    
+        #contact-info {
+            margin-left: 20px; /* Center contact info */
+            margin-top: 30px; /* Adjust margin */
+        }
+    
+        #header-contact {
+            flex-direction: column; /* Stack header items vertically */
+            align-items: center; /* Center items */
+        }
+    }
+    

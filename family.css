@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #FEFBD8;
+}
+
+.h{
+    height: 120px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.h img{
+    margin-right;
+    width:15%;
+    height: 300px;
+    margin: 0px -85px;
+    padding: 1%;
+}
+
+.h h1{
+    text-align: center;
+    width:85%;
+    background-color: #101820; 
+    padding: 15px; color: aliceblue; 
+    margin-left: 10px; 
+    margin-right: 40px;
+}
+
+
+.box1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box1 .grandpa{
+
+    width: 200px; height: 200px;
+    border-radius: 10%;
+    margin-right:55px;  
+}
+
+.box1 .grandpa img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box1 .grandma{
+    width: 200px; height: 200px;
+
+    border-radius: 10%;
+}
+
+.box1 .grandma img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box2 .father{
+    width: 200px; height: 200px;
+    border-radius: 10%;
+    margin-right: 50px;
+}
+
+.box2 .father img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box2 .img{
+    width: 200px; height: 200px;
+    border-radius: 10%;
+}
+
+.box2 .img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.box2 .mother{
+    width: 200px;
+    height: 200px;
+
+    border-radius: 10%;
+    margin-left: 50px;
+}
+
+.box2 .mother img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.box3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box3 .sister{
+    width: 200px;
+    height: 200px;
+
+    border-radius: 10%;
+    margin-right:55px;
+}
+
+.box3 .sister img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box3 .me{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.box3 .me img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}

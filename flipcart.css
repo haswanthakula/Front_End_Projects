@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+}
+
+.div1{
+    width: 1533px;
+    height: 80px;
+    background-color: white;
+}
+
+.b{
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 1px dotted black;
+    background-color: aliceblue;
+}
+
+.p1{
+
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+.p1 button{
+    size: 50px;
+}
+
+.i1{
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+
+.div2{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 150px;
+    background-color: white;
+}
+
+figure{
+    margin-left: 50px;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    margin-top:20px ;
+}
+
+.div3{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
+    background-color: white;
+}
+
+.div4{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    width: 1200px;
+    height: 330px;
+    background-color: white;
+}
+
+.p3{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.d1{
+    vertical-align: top;
+    display: inline-block;
+    width: 210px;
+    height: 230px;
+    border: 0.5px dotted #36454F;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.f1{
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.f2{
+    font-size: 18px;
+}
+
+.f3{
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.f4{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.f5{
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+
+.d2{
+    vertical-align: top;
+    display: inline-block;
+    width: 210px;
+    height: 230px;
+    border: 0.5px dotted #36454F;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.d3{
+    vertical-align: top;
+    display: inline-block;
+    width: 210px;
+    height: 230px;
+    border: 0.5px dotted #36454F;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.d4{
+    vertical-align: top;
+    display: inline-block;
+    width: 210px;
+    height: 230px;
+    border: 0.5px dotted #36454F;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.d5{
+    vertical-align: top;
+    display: inline-block;
+    width: 210px;
+    height: 230px;
+    border: 0.5px dotted #36454F;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.div5{
+    vertical-align: top;
+    display: inline-block;
+    width: 250px;
+    height: 330px;
+   
+    border-radius: 10px;
+}

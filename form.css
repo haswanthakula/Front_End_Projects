@@ -1,0 +1,86 @@
+p{
+    text-align: left;
+    margin-left: 60px;
+}
+
+.head{
+    color: white;
+    background-color:black;
+    border-radius: 5px;
+}
+
+.div1{
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 0px;
+}
+
+.c1{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.c2{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.c3{
+    text-align: left;
+    margin-left: 100px;
+}
+
+
+.c4{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.c5{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.c6{
+    text-align: left;
+    margin-left: 100px;
+}
+
+
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+input[type=tel] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+input[type=number] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+input[type=date] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+input[type=password] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
