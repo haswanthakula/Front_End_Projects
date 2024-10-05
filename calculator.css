@@ -1,0 +1,17 @@
+body{
+    background-color: bisque;
+}
+
+
+input[type=tel]{
+    background-color: blueviolet;
+}
+
+button{
+    background-color: aquamarine;
+}
+
+p{
+    background-color: red;
+    width: 100px;
+}

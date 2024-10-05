@@ -1,0 +1,271 @@
+#parent1{
+    background-image: url(imgc1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span{
+    color: white;
+}
+
+span:hover{
+    background-color: white;
+    color: black;
+}
+
+#child2{
+    font-size: 18px;
+}
+
+#child3{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 50px;
+}
+
+#h11{
+    font-size: 100px;
+    display: inline;
+}
+
+#p1{
+    font-size: 23px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#b1{
+    padding: 15px;
+}
+
+
+#parent2{
+
+}
+
+#child11{
+    
+    text-align: center;
+    padding: 30px;
+    
+}
+
+#child12{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-left:100px ;
+    margin-right: 100px;
+}
+
+#d1{
+    
+    text-align: center;
+    padding: 20px;
+}
+
+#d2{
+   
+    text-align: center;
+    padding: 20px;
+}
+
+
+#d3{
+    
+    text-align: center;
+    padding: 20px;
+}
+
+#d4{
+    
+    text-align: center;
+    padding: 20px;
+}
+
+#parent3{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#child22{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-left:50px ;
+    margin-right: 50px;
+}
+
+#c1{
+
+}
+
+#c2{
+}
+
+
+#c3{
+}
+
+#parent4{
+    background-image: url(122.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#parent5{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#dd1{
+    text-align: center;
+   
+}
+
+#dd2{
+
+    text-align: center;
+
+}
+
+
+#dd3{
+    
+    text-align: center;
+}
+
+#dd4{
+    
+    text-align: center;
+}
+
+
+
+#parent6{
+    background-image: url(h1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#child622{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-left:100px ;
+    margin-right: 100px;
+}
+
+
+#c61{
+    text-align: center;
+    padding: 20px;
+}
+
+#c62{
+   
+    text-align: center;
+    padding: 20px;
+}
+
+
+#c63{
+    
+    text-align: center;
+    padding: 20px;
+}
+
+#c64{
+    
+    text-align: center;
+    padding: 20px;
+}
+
+#w1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#w2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#w3{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#parent8{
+    background-image: url(h1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 40px;
+    align-items: center;
+}
+
+
+#parent9{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), /* Light black overlay */
+    url(im11.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+#e1{
+    width: 500px;
+   text-align: center;
+   padding: 20px;
+   margin-left: 450px;
+}
+
+
+#parent10{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #28282B;
+    color: white;
+    padding: 50px;
+}
+
+#f1{
+    text-align: center;
+}
+
+#f2{
+    text-align: center;
+}
+
+#s1{
+    font-size: 20px;
+}
+
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    
+}
+
+*{
+    font-family: 'Georgia', 'serif';
+}

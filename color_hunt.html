@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color_Changing</title>
+    <link rel="stylesheet" href="color_hunt.css">
+    <script src="color_hunt.js"></script>
+</head>
+<body style="background-image: url('1.jpeg');
+background-attachment: fixed;
+background-size: 100% 100%;">
+
+        <h1 style="text-shadow: 2px 2px hotpink;">*Discolouration*</h1>
+
+    <div id="parent">
+        <div id="child1">
+            <textarea id="texts" placeholder="Enter Sample Text Here ........"></textarea>
+            <br><br>
+            <center>
+                <button onclick="mydow()" id="bb">
+                    Download Here
+                </button>
+            </center>
+        </div>
+
+        <div id="child2">
+            <center>
+                <h3 style="font-size: 20px;">Background_Colours</h3>
+            </center>
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            <button onclick="myIndianRed()" style="background-color: IndianRed;"></button>  &nbsp;&nbsp;
+            <button onclick="myLightCoral()" style="background-color: LightCoral"></button> &nbsp;&nbsp;
+            <button onclick="myCrimson()" style="background-color: Crimson;"></button>  &nbsp;&nbsp;
+            <button onclick="myRed()" style="background-color: Red"></button> &nbsp;&nbsp;
+            <button onclick="myFireBrick()" style="background-color: FireBrick;"></button>  &nbsp;&nbsp;
+            <button onclick="myDarkRed()" style="background-color: DarkRed"></button> &nbsp;&nbsp;
+            <button onclick="myPink()" style="background-color: Pink;"></button>  &nbsp;&nbsp;
+            <button onclick="myHotPink()" style="background-color: HotPink"></button> &nbsp;&nbsp;
+            <button onclick="DeepPink()" style="background-color: DeepPink;"></button>  &nbsp;&nbsp;
+            <br><br>&nbsp;&nbsp;&nbsp;
+            <button onclick="myCoral()" style="background-color: Coral"></button> &nbsp;&nbsp;
+            <button onclick="myTomato()" style="background-color: Tomato"></button> &nbsp;&nbsp;
+            <button onclick="myDarkOrange()" style="background-color: DarkOrange;"></button>  &nbsp;&nbsp;
+            <button onclick="myYellow()" style="background-color: Yellow"></button> &nbsp;&nbsp;
+            <button onclick="myGold()" style="background-color: Gold;"></button>  &nbsp;&nbsp;
+            <button onclick="myLightYellow()" style="background-color: LightYellow"></button> &nbsp;&nbsp;
+            <button onclick="myPapayaWhip()" style="background-color: PapayaWhip;"></button>  &nbsp;&nbsp;
+            <button onclick="myPeachPuff()" style="background-color: PeachPuff"></button> &nbsp;&nbsp;
+            <button onclick="myDarkKhaki()" style="background-color: DarkKhaki;"></button>  &nbsp;&nbsp;
+            <br><br>&nbsp;&nbsp;&nbsp;
+            <button onclick="myLavender()" style="background-color: Lavender"></button> &nbsp;&nbsp;
+            <button onclick="myThistle()" style="background-color: Thistle;"></button>  &nbsp;&nbsp;
+            <button onclick="myViolet()" style="background-color: Violet"></button> &nbsp;&nbsp;
+            <button onclick="myFuchsia()" style="background-color: Fuchsia;"></button>  &nbsp;&nbsp;
+            <button onclick="myMediumOrchid()" style="background-color: MediumOrchid"></button> &nbsp;&nbsp;
+            <button onclick="myRebeccaPurple()" style="background-color: RebeccaPurple;"></button>  &nbsp;&nbsp;
+            <button onclick="myBlueViolet()" style="background-color: BlueViolet"></button> &nbsp;&nbsp;
+            <button onclick="myDarkMagenta()" style="background-color: DarkMagenta;"></button>  &nbsp;&nbsp;
+            <button onclick="mySlateBlue()" style="background-color: SlateBlue;"></button>  &nbsp;&nbsp;
+            <br><br>&nbsp;&nbsp;&nbsp;
+            <button onclick="myGreenYellow()" style="background-color: GreenYellow"></button> &nbsp;&nbsp;
+            <button onclick="myLawnGreen()" style="background-color: LawnGreen;"></button>  &nbsp;&nbsp;
+            <button onclick="myLimeGreen()" style="background-color: LimeGreen"></button> &nbsp;&nbsp;
+            <button onclick="myPaleGreen()" style="background-color: PaleGreen;"></button>  &nbsp;&nbsp;
+            <button onclick="myMediumSpringGreen()" style="background-color: MediumSpringGreen"></button> &nbsp;&nbsp;
+            <button onclick="mySeaGreen()" style="background-color: SeaGreen;"></button>  &nbsp;&nbsp;
+            <button onclick="myGreen()" style="background-color: Green"></button> &nbsp;&nbsp;
+            <button onclick="myOliveDrab()" style="background-color: OliveDrab;"></button>  &nbsp;&nbsp;
+            <button onclick="myOlive()" style="background-color: Olive;"></button>  &nbsp;&nbsp;
+            <br><br>&nbsp;&nbsp;&nbsp;
+            <button onclick="myMediumAquamarine()" style="background-color: MediumAquamarine"></button> &nbsp;&nbsp;
+            <button onclick="myAqua()" style="background-color: Aqua;"></button>  &nbsp;&nbsp;
+            <button onclick="myTurquoise()" style="background-color: Turquoise"></button> &nbsp;&nbsp;
+            <button onclick="myCadetBlue()" style="background-color: CadetBlue;"></button>  &nbsp;&nbsp;
+            <button onclick="mySkyBlue()" style="background-color: SkyBlue"></button> &nbsp;&nbsp;
+            <button onclick="myDarkBlue()" style="background-color: DarkBlue;"></button>  &nbsp;&nbsp;
+            <button onclick="myBisque()" style="background-color: Bisque"></button> &nbsp;&nbsp;
+            <button onclick="myWheat()" style="background-color: Wheat;"></button>  &nbsp;&nbsp;
+            <button onclick="myRosyBrown()" style="background-color: RosyBrown;"></button>  &nbsp;&nbsp;
+            <br><br>&nbsp;&nbsp;&nbsp;
+            <button onclick="mySienna()" style="background-color: 	Sienna"></button> &nbsp;&nbsp;
+            <button onclick="myAzure()" style="background-color: Azure;"></button>  &nbsp;&nbsp;
+            <button onclick="myAliceBlue()" style="background-color: AliceBlue"></button> &nbsp;&nbsp;
+            <button onclick="mySeaShell()" style="background-color: SeaShell;"></button>  &nbsp;&nbsp;
+            <button onclick="myMistyRose()" style="background-color: MistyRose"></button> &nbsp;&nbsp;
+            <button onclick="myGray()" style="background-color: Gray;"></button>  &nbsp;&nbsp;
+            <button onclick="mySlateGray()" style="background-color: SlateGray"></button> &nbsp;&nbsp;
+            <button onclick="myDarkSlateGray()" style="background-color: 	DarkSlateGray;"></button>  &nbsp;&nbsp;
+            <button onclick="myBlack()" style="background-color: Black;"></button>  &nbsp;&nbsp;
+            <br><br>
+
+            <center>
+                <button onclick="myreset1()" id="b">Reset</button>
+            </center>
+
+        </div>
+
+
+
+
+        <div id="child3">
+            <center>
+                <h3 style="font-size: 20px;">Font_Colours</h3>
+            </center>
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            <button onclick="mytIndianRed()" style="background-color: IndianRed;"></button>  &nbsp;&nbsp;
+            <button onclick="mytLightCoral()" style="background-color: LightCoral"></button> &nbsp;&nbsp;
+            <button onclick="mytCrimson()" style="background-color: Crimson;"></button>  &nbsp;&nbsp;
+            <button onclick="mytRed()" style="background-color: Red"></button> &nbsp;&nbsp;
+            <button onclick="mytFireBrick()" style="background-color: FireBrick;"></button>  &nbsp;&nbsp;
+            <button onclick="mytDarkRed()" style="background-color: DarkRed"></button> &nbsp;&nbsp;
+            <button onclick="mytPink()" style="background-color: Pink;"></button>  &nbsp;&nbsp;
+            <button onclick="mytHotPink()" style="background-color: HotPink"></button> &nbsp;&nbsp;
+            <button onclick="mytDeepPink()" style="background-color: DeepPink;"></button>  &nbsp;&nbsp;
+            <br><br>&nbsp;&nbsp;&nbsp;
+            <button onclick="mytCoral()" style="background-color: Coral"></button> &nbsp;&nbsp;
+            <button onclick="mytTomato()" style="background-color: Tomato"></button> &nbsp;&nbsp;
+            <button onclick="mytDarkOrange()" style="background-color: DarkOrange;"></button>  &nbsp;&nbsp;
+            <button onclick="mytYellow()" style="background-color: Yellow"></button> &nbsp;&nbsp;
+            <button onclick="mytGold()" style="background-color: Gold;"></button>  &nbsp;&nbsp;
+            <button onclick="mytLightYellow()" style="background-color: LightYellow"></button> &nbsp;&nbsp;
+            <button onclick="mytPapayaWhip()" style="background-color: PapayaWhip;"></button>  &nbsp;&nbsp;
+            <button onclick="mytPeachPuff()" style="background-color: PeachPuff"></button> &nbsp;&nbsp;
+            <button onclick="mytDarkKhaki()" style="background-color: DarkKhaki;"></button>  &nbsp;&nbsp;
+            <br><br>&nbsp;&nbsp;&nbsp;
+            <button onclick="mytLavender()" style="background-color: Lavender"></button> &nbsp;&nbsp;
+            <button onclick="mytThistle()" style="background-color: Thistle;"></button>  &nbsp;&nbsp;
+            <button onclick="mytViolet()" style="background-color: Violet"></button> &nbsp;&nbsp;
+            <button onclick="mytFuchsia()" style="background-color: Fuchsia;"></button>  &nbsp;&nbsp;
+            <button onclick="mytMediumOrchid()" style="background-color: MediumOrchid"></button> &nbsp;&nbsp;
+            <button onclick="mytRebeccaPurple()" style="background-color: RebeccaPurple;"></button>  &nbsp;&nbsp;
+            <button onclick="mytBlueViolet()" style="background-color: BlueViolet"></button> &nbsp;&nbsp;
+            <button onclick="mytDarkMagenta()" style="background-color: DarkMagenta;"></button>  &nbsp;&nbsp;
+            <button onclick="mytSlateBlue()" style="background-color: SlateBlue;"></button>  &nbsp;&nbsp;
+            <br><br>&nbsp;&nbsp;&nbsp;
+            <button onclick="mytGreenYellow()" style="background-color: GreenYellow"></button> &nbsp;&nbsp;
+            <button onclick="mytLawnGreen()" style="background-color: LawnGreen;"></button>  &nbsp;&nbsp;
+            <button onclick="mytLimeGreen()" style="background-color: LimeGreen"></button> &nbsp;&nbsp;
+            <button onclick="mytPaleGreen()" style="background-color: PaleGreen;"></button>  &nbsp;&nbsp;
+            <button onclick="mytMediumSpringGreen()" style="background-color: MediumSpringGreen"></button> &nbsp;&nbsp;
+            <button onclick="mytSeaGreen()" style="background-color: SeaGreen;"></button>  &nbsp;&nbsp;
+            <button onclick="mytGreen()" style="background-color: Green"></button> &nbsp;&nbsp;
+            <button onclick="mytOliveDrab()" style="background-color: OliveDrab;"></button>  &nbsp;&nbsp;
+            <button onclick="mytOlive()" style="background-color: Olive;"></button>  &nbsp;&nbsp;
+            <br><br>&nbsp;&nbsp;&nbsp;
+            <button onclick="mytMediumAquamarine()" style="background-color: MediumAquamarine"></button> &nbsp;&nbsp;
+            <button onclick="mytAqua()" style="background-color: Aqua;"></button>  &nbsp;&nbsp;
+            <button onclick="mytTurquoise()" style="background-color: Turquoise"></button> &nbsp;&nbsp;
+            <button onclick="mytCadetBlue()" style="background-color: CadetBlue;"></button>  &nbsp;&nbsp;
+            <button onclick="mytSkyBlue()" style="background-color: SkyBlue"></button> &nbsp;&nbsp;
+            <button onclick="mytDarkBlue()" style="background-color: DarkBlue;"></button>  &nbsp;&nbsp;
+            <button onclick="mytBisque()" style="background-color: Bisque"></button> &nbsp;&nbsp;
+            <button onclick="mytWheat()" style="background-color: Wheat;"></button>  &nbsp;&nbsp;
+            <button onclick="mytRosyBrown()" style="background-color: RosyBrown;"></button>  &nbsp;&nbsp;
+            <br><br>&nbsp;&nbsp;&nbsp;
+            <button onclick="mytSienna()" style="background-color: 	Sienna"></button> &nbsp;&nbsp;
+            <button onclick="mytAzure()" style="background-color: Azure;"></button>  &nbsp;&nbsp;
+            <button onclick="mytAliceBlue()" style="background-color: AliceBlue"></button> &nbsp;&nbsp;
+            <button onclick="mytSeaShell()" style="background-color: SeaShell;"></button>  &nbsp;&nbsp;
+            <button onclick="mytMistyRose()" style="background-color: MistyRose"></button> &nbsp;&nbsp;
+            <button onclick="mytGray()" style="background-color: Gray;"></button>  &nbsp;&nbsp;
+            <button onclick="mytSlateGray()" style="background-color: SlateGray"></button> &nbsp;&nbsp;
+            <button onclick="mytDarkSlateGray()" style="background-color: 	DarkSlateGray;"></button>  &nbsp;&nbsp;
+            <button onclick="mytBlack()" style="background-color: Black;"></button>  &nbsp;&nbsp;
+            <br><br>
+
+            <center>
+                <button onclick="myreset2()" id="b">Reset</button>
+            </center>
+
+        </div>
+        <br>
+
+    </div>
+</body>
+</html>
