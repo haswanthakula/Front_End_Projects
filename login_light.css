@@ -1,0 +1,70 @@
+.child1{
+    margin-top: 150px;
+    width: 400px;
+    height: 470px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 5px 15px 15px rgba(0.2, 0.2, 0.2, 0.5);
+}
+
+h1{
+    font-size: 32px;
+}
+
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    
+}
+
+input[type=password] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+}
+
+button{
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width: 640px)
+{
+    .child1{
+        margin-top: 200px;
+        width: 300px;
+        height: 390px;
+        border: 1px solid black;
+        border-radius: 30px;
+        box-shadow: 5px 15px 15px rgba(0.2, 0.2, 0.2, 0.5);
+    }
+
+    input[type=text] {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+        font-size: 10px;
+        
+    }
+    
+    input[type=password] {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+        font-size: 10px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    button{
+        padding: 5px;
+    }
+
+
+}

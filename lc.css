@@ -1,0 +1,50 @@
+.div1{
+    margin-left: 250px;
+    display: inline-block;
+    width: 43%;
+    background-color: #c0a975;
+    border-radius: 20px;
+}
+.s1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.div2{
+    margin-top: 40px;
+    margin-right: 150px;
+    float: right;
+    display: inline-block;
+    width: 400px;
+    height: 450px;
+    background-color: #c0a975;
+    border-radius: 20px;
+}
+
+.s2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.div3{
+    margin-left: 250px;
+    display: inline-block;
+    width: 43%;
+    background-color: #c0a975;
+    border-radius: 20px;
+}
+
+.s3{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+
+    float: left;
+    margin-left: 140px;
+}
