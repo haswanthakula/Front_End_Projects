@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Projects Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .projects-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+        .project-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .project-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Front-End Projects Showcase</h1>
+    <div class="projects-container" id="projectsContainer"></div>
+
+    <script>
+        // List of HTML files to showcase
+        const projectFiles = [
+            'calculator.html',
+            'coffee_shop.html', 
+            'color_hunt.html', 
+            'ec.html', 
+            'et.html', 
+            'flipcart.html', 
+            'form.html', 
+            'hyd.html', 
+            'lc.html', 
+            'login_dark.html', 
+            'login_light.html', 
+            'lt.html', 
+            'mxplayer.html', 
+            'sample_resume.html', 
+            'solar_system.html', 
+            'spotify.html', 
+            'teams.html'
+        ];
+
+        const projectContainer = document.getElementById('projectsContainer');
+
+        projectFiles.forEach(file => {
+            const projectCard = document.createElement('div');
+            projectCard.classList.add('project-card');
+            
+            // Remove file extension and replace underscores with spaces for title
+            const projectName = file.replace('.html', '').replace(/_/g, ' ');
+            
+            projectCard.innerHTML = `
+                <h3>${projectName.charAt(0).toUpperCase() + projectName.slice(1)}</h3>
+                <a href="${file}" class="project-btn" target="_blank">Open Project</a>
+            `;
+            
+            projectContainer.appendChild(projectCard);
+        });
+    </script>
+</body>
+</html>
