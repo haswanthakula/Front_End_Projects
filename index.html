@@ -3,34 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front_End_Projects</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <title>Front-End Projects Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .projects-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+        .project-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .project-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <center>
-        <h1>Teks_Academy FrontEnd_Projects</h1>
-    </center>
-    <div>
-        <a href="form.html" target="_blank">Forms_Project</a> <br><br><br>
-        <a href="flipcart.html" target="_blank">Flipcart_Project</a> <br><br><br>
-        <a href="mxplayer.html" target="_blank">Mx_Player_Project</a> <br><br><br>
-        <a href="login_dark.html" target="_blank">Login_Page_DarkMode_Project</a> <br><br><br>
-        <a href="login_ligth.html" target="_blank">Login_Page_LightMode_Project</a> <br><br><br>
-        <a href="belongings.html" target="_blank">Belongings_Project</a> <br><br><br>
-        <a href="color_hunt.html" target="_blank">Color_Hunt_Project</a> <br><br><br>
-        <a href="favourite_persons.html" target="_blank">Favourite_People_Project</a> <br><br><br>
-        <a href="teams.html" target="_blank">Teams_Overview_Project</a> <br><br><br>
-        <a href="spotify.html" target="_blank">Spotify_Project</a> <br><br><br>
-        <a href="solar_system.html" target="_blank">Solar_System_1_Project</a> <br><br><br>
-        <a href="biography.html" target="_blank">Biography_Project</a> <br><br><br>
-        <a href="sample_resume.html" target="_blank">Sample_Resume_Project</a> <br><br><br>
-        <a href="family.html" target="_blank">Family_Tree_Project</a> <br><br><br>
-        <a href="coffee_shop.html" target="_blank">Coffee_Shop_Project</a> <br><br><br>
-        <a href="calculator.html" target="_blank">Calculator_Project</a> <br><br><br>
-        <a href="hyd.html" target="_blank">Hyderabad_Project</a> <br><br><br>
-        
-  
-    </div>
+    <h1>Front-End Projects Showcase</h1>
+    <div class="projects-container" id="projectsContainer"></div>
+
+    <script>
+        // List of HTML files to showcase
+        const projectFiles = [
+            'calculator.html',
+            'coffee_shop.html', 
+            'color_hunt.html', 
+            'ec.html', 
+            'et.html', 
+            'flipcart.html', 
+            'form.html', 
+            'hyd.html', 
+            'lc.html', 
+            'login_dark.html', 
+            'login_light.html', 
+            'lt.html', 
+            'mxplayer.html', 
+            'sample_resume.html', 
+            'solar_system.html', 
+            'spotify.html', 
+            'teams.html'
+        ];
+
+        const projectContainer = document.getElementById('projectsContainer');
+
+        projectFiles.forEach(file => {
+            const projectCard = document.createElement('div');
+            projectCard.classList.add('project-card');
+            
+            // Remove file extension and replace underscores with spaces for title
+            const projectName = file.replace('.html', '').replace(/_/g, ' ');
+            
+            projectCard.innerHTML = `
+                <h3>${projectName.charAt(0).toUpperCase() + projectName.slice(1)}</h3>
+                <a href="${file}" class="project-btn" target="_blank">Open Project</a>
+            `;
+            
+            projectContainer.appendChild(projectCard);
+        });
+    </script>
 </body>
 </html>
